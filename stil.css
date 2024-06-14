@@ -1,5 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
+@font-face{
+	font-family:"NikaZiljak";
+	src:url("NikaZiljak.ttf");
+}
 body{
 	background-image: url("slike/pozadina.jpg")
 }
@@ -31,15 +35,11 @@ h3{
 	width:190px;
 	text-align:center;
 }
-
 h4{
+	font-family:"NikaZiljak", sans-serif;
 	font-size:45px;
 	text-align:center;
 	color: rgb(255, 222, 173);
-}
-h5{
-	font-size:25px;
-	text-align:center;
 }
 h6{
 	font-size:17px;
@@ -47,6 +47,10 @@ h6{
 	background-color: white;
 	padding: 20px;
 	margin: 40px;
+}
+h5{
+	font-size:25px;
+	text-align:center;
 }
 li{
 	font-family: Constantia, "Lucida Bright", "Dejavu Serif", Georgia, "serif";
@@ -62,7 +66,6 @@ ul {
 li {
 	float: left;
 }
-
 li a {
 	display: block;
 	color: black;
