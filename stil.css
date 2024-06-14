@@ -31,10 +31,6 @@ h3{
 	width:190px;
 	text-align:center;
 }
-@font-face {
-	font-family:NikaZiljak;
-	src:url ("NikaZiljak.ttf");
-}
 h4{
 	font-size:45px;
 	text-align:center;
