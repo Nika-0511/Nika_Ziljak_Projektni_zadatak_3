@@ -32,7 +32,7 @@ h3{
 	text-align:center;
 }
 @font-face{
-font-family: NikaZiljak;
+font-family: "NikaZiljak";
 src:url ("NikaZiljak.ttf")
 }
 h4{
