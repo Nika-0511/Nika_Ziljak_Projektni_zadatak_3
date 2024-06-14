@@ -31,7 +31,12 @@ h3{
 	width:190px;
 	text-align:center;
 }
+@font-face{
+font-family: NikaZiljak;
+src:url ("NikaZiljak.ttf")
+}
 h4{
+	font-family:"NikaZiljak", sans-serif;
 	font-size:45px;
 	text-align:center;
 	color: rgb(255, 222, 173);
